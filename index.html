@@ -17,21 +17,49 @@
                 color: rgb(0, 212, 255);
                 font-size: 20px;
             }
+            a:hover {
+                color: white;
+            }
+            a:visited {
+                color: blue;
+            }
+            #navbar{
+                background-color: rgb(0, 212, 255);
+                width: 100%;
+                position: fixed;
+                height: 185px;
+            }
+            #links-to-other-pages-heading{
+                font-size: 50px;
+                
+            }
+            #main-content {
+                margin-top: 150px;
+            }
             #links {
+                line-height: 1.25em;
                 font-size: 20px;
+                margin-top: 10px
             }
         </style>
 	</head>
     <body>
+        
+        <div id="navbar">
+            <h1 id="links-to-other-pages-heading">Navigation</h1>
+            <p id="links"><a href="/plans-projects.html"><em>Plans/Projects</em></a><br><a href="/contact.html"><em>Contact</em></a></p>
+        </div>
+        
         <br><br><br><br>
+        
+        <div id="main-content">
         <h1 id="title">Hi, I'm Aidan.</h1>
         <p id="intro">And I'm a student, currently trying to learn HTML and CSS <br>
         I am starting out as Front End Web Developer. And at the moment, this is the only website I am currently working on. I will hopefully update <br>
         this page regularly. I am also part of a group of developers that eventually want to make webpages for their clients, the group is still in the early <br> stages of being setup though, so it may take a while for that to get up and running. </p>
+        </div>
         
-        <h2 id="links-to-other-pages">As I said, I'm fairly new to HTML and CSS, so I don't know how to make a nav-bar yet, <br> so until then here's a list of links that lead to the other pages of this website: </h2>
         
-        <p id="links"><a href="/plans-projects.html"><em>Plans/Projects</em></a><br><a href="/contact.html"><em>Contact</em></a></p>
         
     </body>
 </html>
